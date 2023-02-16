@@ -1,1 +1,65 @@
+/* Canvas */
+.App {
+   height: 100vh;
+   width: 100vw;
+   background-color: #C7F6B6;
+   background-image: linear-gradient(#C7F6B6, white, white);
+}
 
+/* ---------------------------------------------------------------------------- */
+/* ------------------------------------Header---------------------------------- */
+/* Header Container */
+.header-container {
+    height: 8vh;
+    width: 96vw;
+    background-color: transparent;
+    display: inline-flex;
+    margin: 1%;
+
+
+    border-style: dashed;
+    border-width: 0.1px;
+
+}
+
+/* Menu Button */
+/* ButtonGroup.js */
+.menu-button-group {
+    display: flex;
+}
+/* ButtonLink.js */
+.menu-button {
+    width: 8vw;
+    height: 50%;
+    align-self: center;
+    margin: 0 auto;
+}
+
+
+span.menu-button {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    transition: 0.1s ease;
+}
+span.menu-button:hover {
+    font-size: 28px;
+    transition: 0.1s ease;
+}
+
+
+span.menu-button-selected {
+    font-size: 30px;
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+/* ---------------------------------------------------------------------------- */
+
+/* Spacer */
+
+.spacer {
+    flex: 1 1 auto;
+}
