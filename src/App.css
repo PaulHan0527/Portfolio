@@ -12,14 +12,31 @@
 .header-container {
     height: 8vh;
     width: 96vw;
-    background-color: transparent;
+    background-color: white;
     display: inline-flex;
     margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-
-    border-style: dashed;
+    border-style: solid;
     border-width: 0.1px;
+    border-radius: 10px;
+    border-color: rgb(230, 230, 230);
 
+}
+
+
+.header-header {
+
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 60px;
+    align-self: center;
+
+    margin-left: 7%;
+}
+
+.header-header:hover {
+    cursor: pointer;
 }
 
 /* Menu Button */
@@ -33,6 +50,7 @@
     height: 50%;
     align-self: center;
     margin: 0 auto;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
@@ -41,6 +59,7 @@ span.menu-button {
     text-decoration: none;
     font-size: x-large;
     transition: 0.1s ease;
+    
 }
 span.menu-button:hover {
     font-size: 28px;
