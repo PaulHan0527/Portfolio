@@ -5,6 +5,7 @@ import { useState } from "react";
 import "../contents.css"
 import GridView from "./GridView";
 import CarouselView from './CarouselView';
+import { Fade } from '@mui/material';
 
 
 const Projects = (props) => {
@@ -13,7 +14,9 @@ const Projects = (props) => {
 
     return (
         <div className="projects-container">
-            <div className="projects-header">
+            <Fade in="true"  style={{ transformOrigin: '0 0 0' }} 
+        timeout={700}>
+            <div className="projects-header" align="right">
                     <ToggleButton 
                         sx={ { backgroundColor: "white", 
                                borderRadius:"10px", 
@@ -28,6 +31,10 @@ const Projects = (props) => {
                                     backgroundColor: "white",
                                     opacity: 1,
                                     transition: "0.5s ease"
+                               },
+                               "&.Mui-selected:hover": {
+                                    backgroundColor: "white",
+                                    opacity: 1,
                                }
                             } }
                         value='grid' 
@@ -49,6 +56,10 @@ const Projects = (props) => {
                                     backgroundColor: "white",
                                     opacity: 1,
                                     transition: "0.5s ease"
+                                },
+                                "&.Mui-selected:hover": {
+                                    backgroundColor: "white",
+                                    opacity: 1,
                                 }
                             } }
                         value='carousel' 
@@ -57,6 +68,7 @@ const Projects = (props) => {
                         <ViewCarouselIcon/>
                     </ToggleButton>
             </div>
+            </Fade>
             {
                 gridView 
                 ?

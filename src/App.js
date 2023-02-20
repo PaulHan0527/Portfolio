@@ -6,7 +6,7 @@ import './App.css';
 // Components
 import Home from './Components/Contents/Home/Home';
 import Projects from './Components/Contents/Projects/Projects';
-import Timeline from './Components/Contents/Timeline/Timeline';
+import Timelines from './Components/Contents/Timeline/Timelines';
 import About from './Components/Contents/About/About';
 import Header from './Components/Header/Header';
 
@@ -22,7 +22,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/about' element={<About/>}/>
-          <Route path='/timeline' element={<Timeline/>}/>
+          <Route path='/timeline' element={<Timelines/>}/>
         </Routes>
         <div className='footer-container'>
 

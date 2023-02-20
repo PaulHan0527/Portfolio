@@ -5,8 +5,6 @@ import projectsInfo from "./ProjectObjects";
 
 const GridView = (props) => {
     
-    
-    
     return (
         <div className="projects-gridview-container">
             {projectsInfo.map((element, i) => {
@@ -14,6 +12,7 @@ const GridView = (props) => {
                     <GridViewItem
                         key={i}
                         name={element.name}
+                        growTime={(200 * i) + 200}
                     />
                 )
             })}
