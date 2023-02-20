@@ -2,7 +2,6 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ViewCarouselIcon from '@mui/icons-material/ViewCarousel';
 import ViewModuleIcon from '@mui/icons-material/ViewModule';
 import { useState } from "react";
-import "../contents.css"
 import GridView from "./GridView";
 import CarouselView from './CarouselView';
 import { Fade } from '@mui/material';
@@ -14,7 +13,7 @@ const Projects = (props) => {
 
     return (
         <div className="projects-container">
-            <Fade in="true"  style={{ transformOrigin: '0 0 0' }} 
+            <Fade in={true}  style={{ transformOrigin: '0 0 0' }} 
         timeout={700}>
             <div className="projects-header" align="right">
                     <ToggleButton 

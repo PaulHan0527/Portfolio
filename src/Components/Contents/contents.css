@@ -85,28 +85,60 @@
 /* Timeline */
 /* ---------------------------------------------------------------------------- */
 .timeline-container {
-    width: 90vw;
-    height: 80vh;
-    margin: 1% auto; 
+    width: 80vw;
+    height: 70vh;
+    margin: 1% auto;
+    margin-top: 3%; 
 
     overflow-y: auto;
 
-    border-style: solid;
+    /* border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: red; */
 }
 
 
-.timeline-date {
-    height: 20vh;
+.timeline-item-container {
+    height: 10vh;
+    width: 65vw;
+    margin-left: 7%;
+    transition: 0.3s ease;
+    font-family: "jersey";
+    font-size: 400%;
 
-    border-style: solid;
+    /* border-style: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: black; */
+}
+
+.timeline-item-container:hover {
+    height: 30vh;
+    transition: 0.3s ease;
 }
 
 
-
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #777777;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b8b8b8;
+}
 
 
 /* ---------------------------------------------------------------------------- */

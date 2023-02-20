@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "jersey";
+  src: local("JerseyM54"), 
+    url("./fonts/JerseyM54.ttf") format("truetype");
+}

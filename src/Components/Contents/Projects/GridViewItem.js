@@ -6,7 +6,7 @@ import "../contents.css"
 const GridViewItem = (props) => {
 
     return (
-        <Grow in="true"  style={{ transformOrigin: '0 0 0' }} 
+        <Grow in={true}  style={{ transformOrigin: '0 0 0' }} 
         timeout={props.growTime}
         className='projects-gridview-item'>
             <Card>
