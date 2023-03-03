@@ -70,9 +70,24 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.projects-carouselview-container {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    /* Have this on Carousel view as well */
+    margin-top: 2%; 
+    grid-template-columns: repeat(6, 12vw);
+    grid-auto-rows: 20vh;
+    column-gap: 2%;
+    row-gap: 5%;
+    padding-top: 3%;
+    padding-left: 3%;
+    /* overflow-y: auto; */
 
-
-
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
 
 
 
