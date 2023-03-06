@@ -4,7 +4,7 @@ const CarouselViewitem = (props) => {
 
 
     return (
-        <div>
+        <div className={"projects-carouselview-item"+(props.active ? " active" : "")}>
             {props.name + (props.active ? " active": "")}
         </div>
     )

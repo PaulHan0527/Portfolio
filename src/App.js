@@ -1,6 +1,7 @@
 // react, mui
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
+import "./Components/Contents/contents.scss";
 import "./fonts/JerseyM54.ttf";
 
 // Components

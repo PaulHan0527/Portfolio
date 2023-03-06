@@ -2,8 +2,6 @@
 .App {
    height: 100vh;
    width: 100vw;
-   background-color: #C7F6B6;
-   background-image: linear-gradient(#C7F6B6, white, white);
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -11,28 +9,20 @@
 /* Header Container */
 .header-container {
     height: 8vh;
-    width: 96vw;
-    background-color: white;
+    width: 100vw;
+    background-color: black;
     display: inline-flex;
-    margin: 1%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-    border-style: solid;
-    border-width: 0.1px;
-    border-radius: 10px;
-    border-color: rgb(230, 230, 230);
-
 }
 
 
 .header-header {
 
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     font-family: 'Source Code Pro', monospace;
-    font-size: 60px;
+    font-size: 50px;
     align-self: center;
-
     margin-left: 7%;
+
+    color: white;
 }
 
 .header-header:hover {
@@ -47,30 +37,21 @@
 /* ButtonLink.js */
 .menu-button {
     width: 8vw;
-    height: 50%;
     align-self: center;
-    margin: 0 auto;
-    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+    font-weight: 600;
+    /* border-color: green;
+    border-style: dotted; */
+
+    padding: 15%;
 }
 
-
-span.menu-button {
-    color: black;
-    text-decoration: none;
-    font-size: x-large;
-    transition: 0.1s ease;
-    
-}
-span.menu-button:hover {
-    font-size: 28px;
-    transition: 0.1s ease;
-}
 
 
 span.menu-button-selected {
-    font-size: 30px;
-    color: black;
-    text-decoration: underline;
+    color: red;
+    font-weight: bolder;
+    padding: 15%;
 }
 
 

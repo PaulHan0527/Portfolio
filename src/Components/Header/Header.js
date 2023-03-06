@@ -10,11 +10,12 @@ const Header = (props) => {
 
     return (
         <>
-            <div style={{width: '500px'}}>
-                <span className="header-header" onClick={()=>{setSelected("/")}}>
-                    <Link to={"/"} style={ { textDecoration: 'none' } }>
-                        Paul Han
-                    </Link>
+            <div>
+                <span className="header-header">
+                    {/* <Link to={"/"} style={ { textDecoration: 'none' } }>
+                        PlaceHolder
+                    </Link> */}
+                    PlaceHolder
                 </span>
             </div>
             <div className='spacer'></div>

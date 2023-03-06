@@ -41,20 +41,20 @@ const CarouselView = (props) => {
 
     return (
         <div className="projects-carouselview-container">
-            <div onClick={goPrev}>Prev</div>
             {/* Change classname on condition : current === 0 
                 and current === projectsInfo.length-1 */}
-            {
-                previewSet.map((element, i) => {
-                    return <CarouselViewitem
-                        name={element.name}
-                        key={i}
-                        active={current === element.index}
-                        // really want to delete this index, figure it out
-                    />
-                })
-            }
-            <div onClick={goNext}>Next</div>
+                <div className="projects-carouselview-items-container">
+                    <div onClick={goPrev}>Prev</div>
+                    {
+                    previewSet.map((element, i) => {
+                        return <CarouselViewitem
+                            name={element.name}
+                            key={i}
+                            active={current === element.index}
+                        />})
+                    }
+                    <div onClick={goNext}>Next</div>
+                </div>
         </div>
     )
 }
