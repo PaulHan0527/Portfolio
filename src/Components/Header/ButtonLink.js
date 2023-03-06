@@ -12,7 +12,9 @@ const ButtonLink = (props) => {
                     disableRipple
                     disabled={props.selected}
                     onClick={() => {props.setSelected(props.link)}}>
-              <Link to={props.link} style={ { textDecoration: 'none' } }>
+              <Link to={props.link} style={ { 
+                                        textDecoration: 'none',
+                                        } }>
                 <span className={'menu-button' + (props.selected ?'-selected':'')} data-hover={props.name}>
                     {props.name}
                 </span>

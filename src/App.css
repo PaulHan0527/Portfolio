@@ -25,10 +25,6 @@
     color: white;
 }
 
-.header-header:hover {
-    cursor: pointer;
-}
-
 /* Menu Button */
 /* ButtonGroup.js */
 .menu-button-group {
@@ -45,7 +41,6 @@
 
     padding: 15%;
 }
-
 
 
 span.menu-button-selected {

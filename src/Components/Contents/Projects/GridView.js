@@ -12,7 +12,7 @@ const GridView = (props) => {
                     <GridViewItem
                         key={i}
                         name={element.name}
-                        growTime={(200 * i) + 200}
+                        growTime={(200 * i)}
                     />
                 )
             })}

@@ -1,20 +1,17 @@
-import Card from '@mui/material/Card';
-import { Grow } from '@mui/material';
-import CardContent from '@mui/material/CardContent';
-import "../contents.css"
+import { Box, Fade } from '@mui/material';
+
 
 const GridViewItem = (props) => {
 
     return (
-        <Grow in={true}  style={{ transformOrigin: '0 0 0' }} 
-        timeout={props.growTime}
-        className='projects-gridview-item'>
-            <Card>
-                <CardContent>
-                    {props.name}
-                </CardContent>
-            </Card>
-        </Grow>
+        <Box className="projects-gridview-item" timeout={500}>
+            <Fade in={true} timeout={500}>
+                <img 
+                    className='projects-gridview-item-img'
+                    src="https://placekitten.com/640/360" 
+                    alt=''/>
+            </Fade>
+        </Box>
     )
 }
 
