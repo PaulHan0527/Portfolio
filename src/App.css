@@ -8,8 +8,8 @@
 /* ------------------------------------Header---------------------------------- */
 /* Header Container */
 .header-container {
-    height: 8vh;
-    width: 100vw;
+    height: 8%;
+    width: 100%;
     background-color: black;
     display: inline-flex;
 }
@@ -20,7 +20,7 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 50px;
     align-self: center;
-    margin-left: 7%;
+    margin-left: 15%;
 
     color: white;
 }
@@ -36,9 +36,6 @@
     align-self: center;
     color: white;
     font-weight: 600;
-    /* border-color: green;
-    border-style: dotted; */
-
     padding: 15%;
 }
 
@@ -47,6 +44,16 @@ span.menu-button-selected {
     color: red;
     font-weight: bolder;
     padding: 15%;
+}
+
+.content-container {
+    height: 85%;
+}
+
+
+.footer-container {
+    background-color: black;
+    height: 7%;
 }
 
 

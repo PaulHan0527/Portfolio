@@ -19,12 +19,14 @@ function App() {
         <div className='header-container'>
           <Header/>
         </div>
+        <div className='content-container'>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/timeline' element={<Timelines/>}/>
         </Routes>
+        </div>
         <div className='footer-container'>
 
         </div>

@@ -20,6 +20,7 @@ const Projects = (props) => {
                         sx={ { backgroundColor: "white", 
                                borderRadius:"10px", 
                                marginRight: "10px",
+                               marginTop: "20px",
                                opacity: 0.7,
                                "&.Mui-selected": {
                                     backgroundColor: "white",
@@ -44,7 +45,8 @@ const Projects = (props) => {
                     <ToggleButton 
                         sx={ { backgroundColor: "white", 
                                 borderRadius:"10px", 
-                                marginRight: "10px",
+                                marginRight: "30px",
+                                marginTop: "20px",
                                 opacity: 0.7,
                                 "&.Mui-selected": {
                                     backgroundColor: "white",
